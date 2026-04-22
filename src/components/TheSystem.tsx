@@ -1,5 +1,7 @@
 "use client";
 
+const PREVIEW_URL = "https://www.instagram.com/kata_consulting/";
+
 const entities = [
   {
     number: "01",
@@ -7,7 +9,7 @@ const entities = [
     tagline: "A sovereign training environment.",
     description:
       "Performance gym, movement studio, and recovery — built for daily ritual as membership. No screens. No shortcuts. Just work.",
-    href: "/lifestyle-club",
+    href: PREVIEW_URL,
   },
   {
     number: "02",
@@ -15,7 +17,7 @@ const entities = [
     tagline: "Architecture you sleep in.",
     description:
       "Concrete, timber, brass. Villas and suites where every surface is considered, every material earns its place, and every room ages with you.",
-    href: "/enclave",
+    href: PREVIEW_URL,
   },
   {
     number: "03",
@@ -23,7 +25,7 @@ const entities = [
     tagline: "A residency for people who build.",
     description:
       "Co-living for founders, creatives, and practitioners — one to three months. Shared discipline. Private focus. Lombok as the operating system.",
-    href: "/collectiv",
+    href: PREVIEW_URL,
   },
 ];
 
@@ -64,6 +66,8 @@ export default function TheSystem() {
             <a
               key={entity.name}
               href={entity.href}
+              target="_blank"
+              rel="noreferrer"
               className="group block"
             >
               {/* Top rule */}

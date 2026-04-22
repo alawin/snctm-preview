@@ -1,3 +1,5 @@
+const PREVIEW_URL = "https://www.instagram.com/kata_consulting/";
+
 export default function Footer() {
   return (
     <footer className="relative bg-[var(--color-bg)] border-t border-[var(--color-border)]">
@@ -25,13 +27,15 @@ export default function Footer() {
                 Spaces
               </p>
               {[
-                { label: "Lifestyle Club", href: "/lifestyle-club" },
-                { label: "Enclave", href: "/enclave" },
-                { label: "Collectiv", href: "/collectiv" },
+                { label: "Lifestyle Club", href: PREVIEW_URL },
+                { label: "Enclave", href: PREVIEW_URL },
+                { label: "Collectiv", href: PREVIEW_URL },
               ].map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
+                  target="_blank"
+                  rel="noreferrer"
                   className="font-[family-name:var(--font-body)] text-sm font-light text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200"
                 >
                   {link.label}
@@ -44,12 +48,14 @@ export default function Footer() {
                 Sanctum
               </p>
               {[
-                { label: "Philosophy", href: "/philosophy" },
-                { label: "Enquire", href: "/enquire" },
+                { label: "Philosophy", href: PREVIEW_URL },
+                { label: "Enquire", href: PREVIEW_URL },
               ].map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
+                  target="_blank"
+                  rel="noreferrer"
                   className="font-[family-name:var(--font-body)] text-sm font-light text-[var(--color-text-muted)] hover:text-[var(--color-text)] transition-colors duration-200"
                 >
                   {link.label}

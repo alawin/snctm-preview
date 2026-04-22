@@ -3,14 +3,16 @@
 import { useState, useCallback, useEffect } from "react";
 import FlowingMenu from "@/components/reactbits/FlowingMenu";
 
+const PREVIEW_URL = "https://www.instagram.com/kata_consulting/";
+
 const menuItems = [
-  { link: "/", text: "Home", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=60" },
-  { link: "/lifestyle-club", text: "Lifestyle Club", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=60" },
-  { link: "/enclave", text: "Enclave", image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400&q=60" },
-  { link: "/collectiv", text: "Collectiv", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=60" },
-  { link: "/philosophy", text: "Philosophy", image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&q=60" },
-  { link: "/journal", text: "Journal", image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=60" },
-  { link: "/pre-book", text: "Pre-Book", image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=400&q=60" },
+  { link: PREVIEW_URL, text: "Home", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=60" },
+  { link: PREVIEW_URL, text: "Lifestyle Club", image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=60" },
+  { link: PREVIEW_URL, text: "Enclave", image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400&q=60" },
+  { link: PREVIEW_URL, text: "Collectiv", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&q=60" },
+  { link: PREVIEW_URL, text: "Philosophy", image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&q=60" },
+  { link: PREVIEW_URL, text: "Journal", image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=60" },
+  { link: PREVIEW_URL, text: "Pre-Book", image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=400&q=60" },
 ];
 
 export default function MobileNav() {
