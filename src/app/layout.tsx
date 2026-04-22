@@ -24,6 +24,11 @@ export const metadata: Metadata = {
   title: "Sanctum Lombok — Architecture. Movement. Ritual.",
   description:
     "A sovereign wellness ecosystem in Lombok. Performance gym, architecturally led accommodation, and considered restoration — for guests who take their bodies and environments seriously.",
+  icons: {
+    icon: "/icon/icon.png",
+    shortcut: "/icon/icon.png",
+    apple: "/icon/icon.png",
+  },
   robots: {
     index: false,
     follow: false,
