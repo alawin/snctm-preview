@@ -6,25 +6,25 @@ const entities = [
   {
     number: "01",
     name: "Lifestyle Club",
-    tagline: "A sovereign training environment.",
+    tagline: "Where the work is the ritual.",
     description:
-      "Performance gym, movement studio, and recovery — built for daily ritual as membership. No screens. No shortcuts. Just work.",
+      "A serious training environment. Performance gym, movement studio, contrast therapy. No televisions. No distractions. Membership only.",
     href: PREVIEW_URL,
   },
   {
     number: "02",
     name: "Enclave",
-    tagline: "Architecture you sleep in.",
+    tagline: "Concrete, timber, silence.",
     description:
-      "Concrete, timber, brass. Villas and suites where every surface is considered, every material earns its place, and every room ages with you.",
+      "Villas and suites built to last. Raw materials, considered proportions, rooms that age better than you will.",
     href: PREVIEW_URL,
   },
   {
     number: "03",
     name: "Collectiv",
-    tagline: "A residency for people who build.",
+    tagline: "Live here. Build something.",
     description:
-      "Co-living for founders, creatives, and practitioners — one to three months. Shared discipline. Private focus. Lombok as the operating system.",
+      "One to three months. Shared spaces, private focus. For founders and practitioners who need a place that takes itself seriously.",
     href: PREVIEW_URL,
   },
 ];
@@ -56,7 +56,7 @@ export default function TheSystem() {
             The Ecosystem
           </p>
           <p className="max-w-xs font-[family-name:var(--font-body)] text-sm font-light leading-relaxed text-white/50">
-            Three distinct spaces, one coherent intention — to live, move, and build without compromise.
+            Three spaces. One standard. No compromises made on your behalf.
           </p>
         </div>
 
