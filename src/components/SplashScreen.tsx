@@ -48,8 +48,8 @@ export default function SplashScreen() {
         <Image
           src="/icon/icon.png"
           alt="Sanctum"
-          width={380}
-          height={380}
+          width={250}
+          height={250}
           priority
           className="select-none"
         />
