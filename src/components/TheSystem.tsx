@@ -6,25 +6,25 @@ const entities = [
   {
     number: "01",
     name: "Lifestyle Club",
-    tagline: "Where the work is the ritual.",
+    tagline: "Strength, ritual, privacy.",
     description:
-      "A serious training environment. Performance gym, movement studio, contrast therapy. No televisions. No distractions. Membership only.",
+      "A membership for people who train with intent. Performance gym, movement studio and recovery, held to a quieter standard.",
     href: PREVIEW_URL,
   },
   {
     number: "02",
     name: "Enclave",
-    tagline: "Concrete, timber, silence.",
+    tagline: "Stay inside the same language.",
     description:
-      "Villas and suites built to last. Raw materials, considered proportions, rooms that age better than you will.",
+      "Villas and suites shaped by proportion, material and light. A place to recover well, sleep deeply and move at a slower register.",
     href: PREVIEW_URL,
   },
   {
     number: "03",
     name: "Collectiv",
-    tagline: "Live here. Build something.",
+    tagline: "For those here to build.",
     description:
-      "One to three months. Shared spaces, private focus. For founders and practitioners who need a place that takes itself seriously.",
+      "Longer stays for founders, creatives and practitioners. Private focus within a shared rhythm, with the island close and the noise kept out.",
     href: PREVIEW_URL,
   },
 ];
@@ -55,8 +55,8 @@ export default function TheSystem() {
           >
             The Ecosystem
           </p>
-          <p className="max-w-xs font-[family-name:var(--font-body)] text-sm font-light leading-relaxed text-white/50">
-            Three spaces. One standard. No compromises made on your behalf.
+          <p className="max-w-xs font-body text-sm font-light leading-relaxed text-white/50">
+            Three expressions of one discipline. Architecture, movement and stay held to the same standard.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ export default function TheSystem() {
               <div className="grid grid-cols-12 gap-4 py-10 md:py-12">
                 {/* Number */}
                 <div className="col-span-2 md:col-span-1 pt-1">
-                  <span className="font-[family-name:var(--font-body)] text-[11px] text-white/30 tracking-[0.3em]">
+                  <span className="font-body text-[11px] text-white/30 tracking-[0.3em]">
                     {entity.number}
                   </span>
                 </div>
@@ -84,7 +84,7 @@ export default function TheSystem() {
                 {/* Name */}
                 <div className="col-span-10 md:col-span-4">
                   <h2
-                    className="text-3xl md:text-4xl lg:text-5xl text-white transition-colors duration-300 group-hover:text-[var(--color-accent)] leading-none tracking-tight"
+                    className="text-3xl leading-none tracking-tight text-white transition-colors duration-300 group-hover:text-(--color-accent) md:text-4xl lg:text-5xl"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
                     {entity.name}
@@ -94,18 +94,18 @@ export default function TheSystem() {
                 {/* Text */}
                 <div className="col-span-12 md:col-span-6 md:col-start-7 flex flex-col justify-between gap-4">
                   <div>
-                    <p className="mb-3 font-[family-name:var(--font-body)] text-sm font-light italic text-white/60">
+                    <p className="mb-3 font-body text-sm font-light italic text-white/60">
                       {entity.tagline}
                     </p>
-                    <p className="font-[family-name:var(--font-body)] text-sm font-light leading-relaxed text-white/40">
+                    <p className="font-body text-sm font-light leading-relaxed text-white/40">
                       {entity.description}
                     </p>
                   </div>
                   <div className="flex items-center gap-2 opacity-0 translate-y-1 transition-all duration-400 group-hover:opacity-100 group-hover:translate-y-0">
-                    <span className="font-[family-name:var(--font-body)] text-[11px] uppercase tracking-[0.3em] text-[var(--color-accent)]">
-                      Explore
+                    <span className="text-(--color-accent) font-body text-[11px] uppercase tracking-[0.3em]">
+                      Enter
                     </span>
-                    <svg className="h-3 w-3 text-[var(--color-accent)] transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <svg aria-hidden="true" className="h-3 w-3 text-(--color-accent) transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                     </svg>
                   </div>
