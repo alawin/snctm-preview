@@ -93,7 +93,7 @@ export default function Hero() {
           ref={taglineRef}
           className="mt-6 max-w-xl font-[family-name:var(--font-body)] text-sm md:text-base font-light leading-relaxed text-white/70 opacity-0"
         >
-          Architecture. Movement. Ritual.
+          Lifestyle. Wellness. Retreat.
         </p>
 
         <div
