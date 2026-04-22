@@ -15,7 +15,7 @@ export default function Footer() {
               SANCTUM
             </span>
             <p className="max-w-[200px] font-[family-name:var(--font-body)] text-xs font-light leading-relaxed text-[var(--color-text-muted)]">
-              Architecture. Movement. Ritual.<br />
+              Lifestyle. Wellness. Retreat.<br />
               Lombok, West Nusa Tenggara.
             </p>
           </div>

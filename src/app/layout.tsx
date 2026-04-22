@@ -21,7 +21,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Sanctum Lombok — Architecture. Movement. Ritual.",
+  title: "Sanctum - Lifestyle. Wellness. Retreat.",
   description:
     "A sovereign wellness ecosystem in Lombok. Performance gym, architecturally led accommodation, and considered restoration — for guests who take their bodies and environments seriously.",
   icons: {
